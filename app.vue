@@ -1,4 +1,9 @@
 <template lang="pug">
-div
-    router-view
+section#app
+  NuxtPage
 </template>
+
+<style lang="sass" scoped>
+#app
+  width: 100%
+</style>

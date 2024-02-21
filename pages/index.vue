@@ -1,10 +1,10 @@
 <template lang="pug">
-div.test
-    NuxtWelcome
+.home__wrapper 測試～
 </template>
 
 <style lang="sass" scoped>
-
-.test
-    border: 1px solid yellow
+.home__wrapper
+  background: orange
+  width: 100%
+  height: 150px
 </style>
