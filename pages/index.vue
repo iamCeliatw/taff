@@ -1,10 +1,13 @@
 <template lang="pug">
-.home__wrapper 測試～
+.wrapper
+  CommonHeader
+  CommonNavbar 
+  HomePhotoWall
+  HomePhotoGrid
 </template>
 
 <style lang="sass" scoped>
-.home__wrapper
-  background: orange
+.wrapper
   width: 100%
-  height: 150px
+  height: auto
 </style>

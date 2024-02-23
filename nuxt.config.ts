@@ -22,10 +22,7 @@ export default defineNuxtConfig({
         autoImports: ['defineStore', 'acceptHMRUpdate'],
       },
     ],
-
-  
   ],
- 
   css: ['@/assets/sass/main.sass'],
 
   //store data
@@ -44,6 +41,7 @@ export default defineNuxtConfig({
         sass: {
           additionalData: `
           @import "@/assets/sass/mixin.sass"
+          @import "@/assets/sass/breakpoints.sass"
         `,
         },
       },
@@ -56,7 +54,7 @@ export default defineNuxtConfig({
     baseURL: '/',
     buildAssetsDir: '/_nuxt/',
     head: {
-      title: `Journal | L'AiR`,
+      title: `taff`,
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       ],
@@ -71,3 +69,5 @@ export default defineNuxtConfig({
     },
   },
 })
+
+

@@ -17,12 +17,13 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@mdi/font": "^7.4.47",
     "@pinia/nuxt": "^0.5.1",
     "axios": "^1.5.0",
     "node-fetch": "^2.6.1",
     "pinia": "^2.1.7",
     "pug": "^3.0.2",
-    "swiper": "9.0.1",
+    "swiper": "^9.0.1",
     "typescript": "^5.3.3",
     "vite-plugin-pug": "^0.3.2"
   }

@@ -1,0 +1,9 @@
+
+$breakpoints: (xl: '1280px')
+// $colors: ('primary': black, 'secondary': white)
+// $xlarge: 1280px
+// 断点混合
+@mixin breakpoint($name)
+  // 使用变量中的断点值
+  @media (max-width: map-get($breakpoints, $name))
+    @content // 使用@content指令插入混合中的CSS
